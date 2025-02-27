@@ -1,0 +1,86 @@
+/* Thiết lập chung */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container chính */
+.container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Tabs chuyển đổi */
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.header a {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom: 3px solid orange;
+    color: black;
+}
+
+.inactive {
+    color: gray;
+    opacity: 0.6;
+}
+
+/* Hình đại diện */
+.form-box img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Input */
+.form-box input {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Nút đăng nhập/đăng ký */
+.form-box button {
+    width: 95%;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: orange;
+    text-decoration: none;
+    text-align: right;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
